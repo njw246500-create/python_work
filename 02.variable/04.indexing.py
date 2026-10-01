@@ -42,6 +42,9 @@ print(str4)
 print(len(str1))
 print('-'*30)
 
+# 문자열은 인덱싱으로 문자열을 부분적으로 변경 못함. 
 # str1[0] = 'z' # 오류남
 str1 = 'z' + str1[1:]
 print(str1)
+
+str1 = 'weafwfwef'
