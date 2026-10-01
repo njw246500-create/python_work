@@ -17,3 +17,43 @@ name = '이명수'
 
 # 예약어
 # import 로 변수를 지을 수 없음
+
+# 10.01 수업
+
+# python의 자료의 크기는 상관없다. 
+num1 = 100
+num2 = 438463843843846384384387398359851348
+num3 = 9.56564943813834
+
+c = '홍길동 아무개'
+s = 'Hello world!!!'
+b =  True
+
+print(num1)
+print(num2)
+print(num3)
+print(c)
+print(s)
+print(b)
+
+print("-"*30)
+
+print('num1 type =', type(num1))
+print(f'num2 type = {type(num2)}')
+print(f'num3 type =  {type(num3)}')
+print(f'c type = {type(c)}')
+print(f's type =  {type(s)}')
+print(f'b type =  {type(b)}')
+
+print("-"*30)
+
+a = 1
+b = 2
+c = 3
+d, e, f = 1, 2, 3 # 변수선언 한꺼번에도 가능함
+
+print(d, e, f)
+
+g, h, i = '더조은', False, 3.5984
+
+print(g, h, i)
